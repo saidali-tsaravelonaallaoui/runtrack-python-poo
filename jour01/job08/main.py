@@ -4,8 +4,8 @@ class Cercle:
     def __init__(self, rayon):
         self.rayon = rayon
     
-    def changerRayon(self, newrayon):
-        self.rayon = newrayon
+    def changerRayon(self, rayon2):
+        self.rayon = rayon2
     
     def afficherInfos(self):
         print(f"Rayon du cercle : {self.rayon}")
